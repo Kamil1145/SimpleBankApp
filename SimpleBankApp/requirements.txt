@@ -1,0 +1,11 @@
+﻿Zaimplementuj prosty bank w podejściu TDD. Zacznij od pisania testów i używaj podejścia Fake it till you make it do implementacji kodu produkcyjnego.  
+Chodzi głównie o obsługę transakcji bankowych na koncie. Należy zaimplementować takie transakcję jak:
+    - uznanie na koncie,
+    - obciążenie (potrącenie) na koncie.
+    
+Musisz uwzględnić na koncie implementację linii debetowej. Jeśli potrącenie z konta będzie przekraczało obecny stan konta z uwzględnieniem linii debetowej - rzuć odpowiedni wyjątek. 
+    - Zadbaj o rzucenie wyjątkami w sytuacjach, gdy jest to wymagane.
+    - Przetestuj WSZYSTKIE przypadki skrajne (w tym rzucane wyjątki). 
+    - Uwzględnij linię debetową na koncie. 
+    - Nie pozwól aby saldo obniżyło się poniżej wartości dopuszczalnego debetu. Na przykład: Obecny stan konta wynosi 0zł.  Maksymalny debet na koncie wynosi 100zł. 
+      Przy stanie konta 0zł system powinien pozwolić na obciążenie w kwocie 80zł. System nie powinien pozwalać na potrącenie o wysokości wyższej niż 100zł. 

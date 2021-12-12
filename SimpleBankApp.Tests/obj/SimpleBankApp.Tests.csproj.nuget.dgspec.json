@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Programowanie\\C#\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp.Tests\\SimpleBankApp.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Programowanie\\C#\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp.Tests\\SimpleBankApp.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programowanie\\C#\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp.Tests\\SimpleBankApp.Tests.csproj",
+        "projectName": "SimpleBankApp.Tests",
+        "projectPath": "D:\\Programowanie\\C#\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp.Tests\\SimpleBankApp.Tests.csproj",
+        "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
+        "outputPath": "D:\\Programowanie\\C#\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Programowanie\\C#\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp.csproj": {
+                "projectPath": "D:\\Programowanie\\C#\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programowanie\\C#\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Programowanie\\C#\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp.csproj",
+        "projectName": "SimpleBankApp",
+        "projectPath": "D:\\Programowanie\\C#\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp\\SimpleBankApp.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
