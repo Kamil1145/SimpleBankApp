@@ -8,4 +8,21 @@ Musisz uwzględnić na koncie implementację linii debetowej. Jeśli potrącenie
     - Przetestuj WSZYSTKIE przypadki skrajne (w tym rzucane wyjątki). 
     - Uwzględnij linię debetową na koncie. 
     - Nie pozwól aby saldo obniżyło się poniżej wartości dopuszczalnego debetu. Na przykład: Obecny stan konta wynosi 0zł.  Maksymalny debet na koncie wynosi 100zł. 
-      Przy stanie konta 0zł system powinien pozwolić na obciążenie w kwocie 80zł. System nie powinien pozwalać na potrącenie o wysokości wyższej niż 100zł. 
+      Przy stanie konta 0zł system powinien pozwolić na obciążenie w kwocie 80zł. System nie powinien pozwalać na potrącenie o wysokości wyższej niż 100zł.
+      
+      
+      
+---------------------------------------------------------------------
+
+Zaimplementuj mniej prosty bank w podejściu TDD.  Do zadania 2.1  należy dodać możliwość wykonywania przelewów 
+w innych walutach (coś a'la konto walutowe). Dla uproszczenia proszę przyjąć kurs średni NBP na dany dzień. 
+Dodaj serwis, który zwraca stały (zaszyty na sztywno) kurs dla podanej waluty i przyjmijmy tą wartość 
+jako wartość do przeliczania wartości transferu na złotówki.
+
+Uwzględnij następujące waluty:
+    - Euro
+    - Funty
+    - Dolary amerykańskie
+Pamiętaj:
+    -Pisząc testy użyj Moq, odetnij się od serwisu bankowego.
+       

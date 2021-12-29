@@ -9,11 +9,10 @@ namespace SimpleBankApp.Tests
         [Theory]
         [InlineData(10,0,10)]
         [InlineData(40,0,40)]
-
         public void Deposit_WhenBalanceZero(decimal money, decimal balance, decimal expected)
         {
             // Arrange
-            var sut = new SimpleBank
+            var sut = new SimpleBank(new CurrencyService())
             {
                 Balance = balance
             };
@@ -32,7 +31,7 @@ namespace SimpleBankApp.Tests
         public void Deposit_WhenBalanceIsNotZero(decimal money,decimal balance, decimal expected)
         {
             // Arrange
-            var sut = new SimpleBank
+            var sut = new SimpleBank(new CurrencyService())
             {
                 Balance = balance
             };
@@ -50,7 +49,7 @@ namespace SimpleBankApp.Tests
         public void Deposit_ShouldThrowException_WhenMoneyIsNegative(decimal money, decimal balance, decimal negative)
         {            
             // Arrange
-            var sut = new SimpleBank
+            var sut = new SimpleBank(new CurrencyService())
             {
                 Balance = balance
             };
@@ -74,7 +73,7 @@ namespace SimpleBankApp.Tests
         public void Debit_WhenBalanceIsBiggerThanDeductionAndDebitIsNotExceeded(decimal money, decimal balance, decimal expected)
         {
             // Arrange
-            var sut = new SimpleBank
+            var sut = new SimpleBank(new CurrencyService())
             {
                 Balance = balance
             };
@@ -93,7 +92,7 @@ namespace SimpleBankApp.Tests
         public void Debit_ShouldThrowException_WhenDeductionExceedDebit(decimal money, decimal balance,decimal expected)
         {
             // Arrange
-            var sut = new SimpleBank
+            var sut = new SimpleBank(new CurrencyService())
             {
                 Balance = balance
             };

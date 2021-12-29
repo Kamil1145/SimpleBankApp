@@ -1,0 +1,15 @@
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\bin\Debug\SimpleBankApp.dll
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\bin\Debug\SimpleBankApp.pdb
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\obj\Debug\SimpleBankApp.csproj.AssemblyReference.cache
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\obj\Debug\SimpleBankApp.csproj.CoreCompileInputs.cache
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\obj\Debug\SimpleBankApp.dll
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\obj\Debug\SimpleBankApp.pdb
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\bin\Debug\Castle.Core.dll
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\bin\Debug\Moq.dll
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\bin\Debug\Castle.Core.xml
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\bin\Debug\Moq.xml
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Programowanie\C#\SimpleBankApp\SimpleBankApp\SimpleBankApp\obj\Debug\SimpleBankApp.csproj.CopyComplete
